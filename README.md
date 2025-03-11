@@ -30,9 +30,17 @@
 - 😄 Pronouns: He/Him
 - ⚡ Fun Fact: Won third place in a primary school competition, but broke the trophy when receiving it.
 
-![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/ZeZilly/godocs?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews)
 
 Excited to connect and grow together through collaborative endeavors! 🚀
+
+
+
+<a href="https://www.buymeacoffee.com/mehmetzekih" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+
+
+
 
 
 ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/ZeZilly/ZeZilly?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews)
