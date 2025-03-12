@@ -44,7 +44,7 @@ If you enjoy my work, consider supporting me:
 
 ## Connect with Me
 
-- [![Telegram Group](https://img.shields.io/badge/Telegram-Join%20Group-blue)](https://t.me/ExclusAI)
+- [![Join my Telegram Group](https://img.shields.io/badge/Telegram-Join%20@ZeZilly%20Group-blue)](https://t.me/ExclusAI)
 - ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/ZeZilly/ZeZilly?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews)
 
 ---
