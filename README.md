@@ -1,5 +1,7 @@
-# Hi there, 👋.        
- 
+<div align="center">
+
+# Hi there, 👋.
+
 ## About Me
 
 - 🌍 I'm a translator based in Trondheim.
@@ -44,9 +46,11 @@ If you enjoy my work, consider supporting me:
 
 ## Connect with Me
 
-- [![Join my Telegram Group](https://img.shields.io/badge/Telegram-Join%20@ZeZilly%20Group-blue)](https://t.me/ExclusAI)
+- [![Join my Telegram Group](https://img.shields.io/badge/Telegram-Join%20@ZeZilly%20Group-blue)](https://t.me/ZekTonz)
 - ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/ZeZilly/ZeZilly?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews)
 
 ---
 
-[![Join the Telegram Group](https://tinyurl.com/Merhabatelegram)](https://t.me/ExclusAI)
+[![Join the Telegram Group](https://tinyurl.com/Merhabatelegram)](https://t.me/ZekTonz)
+
+</div>
