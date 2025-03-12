@@ -47,17 +47,19 @@
 
 
 
- <a href="https://www.buymeacoffee.com/mehmetzekih" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+ <ahref="https://www.buymeacoffee.com/mehmetzekih" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
 
-   https://t.me/ExclusAI
+  https://t.me/ExclusAI
 
 
- ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/ZeZilly/ZeZilly?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews]!
+
+
+  ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/ZeZilly/ZeZilly?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews]!
 
 
                                                                                 
                                                             
  
- https://tinyurl.com/Merhabatelegram
+  https://tinyurl.com/Merhabatelegram
