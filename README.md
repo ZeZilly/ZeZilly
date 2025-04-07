@@ -53,4 +53,10 @@ If you enjoy my work, consider supporting me:
 
 [![Join the Telegram Group](https://tinyurl.com/Merhabatelegram)](https://t.me/ZekTonz)
 
+Give $20,
+Earn $20
+In DeepSeek API credits
+https://novita.ai/referral?invited_code=FOQ2QB
+
+
 </div>
