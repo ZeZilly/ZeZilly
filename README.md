@@ -50,9 +50,13 @@
 
 ## 📜 Certifications & Learning
 
+- Turkish Middle School Graduate (TR)
+- Swiss High School Graduate (CH)
+- Driver's License (2011, TR)
+- Culinary Arts: Multi-cuisine Chef, Italian Pizza Mastery (2012+)
+- International Food Safety & Hygiene (2017, Sweden)
 - Microsoft Certified: Azure Developer Associate
-- Google Cloud & AWS Developer (in progress)
-- Ongoing: AI/ML, cloud automation, and advanced localization
+- 2020: Pivoted to AI & Coding — ongoing advanced learning
 
 ---
 
