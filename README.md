@@ -39,7 +39,6 @@
 ---
 
 ## ✨ Featured Projects
-
 - [ai-localization-demo](https://github.com/ZeZilly/ai-localization-demo): AI-powered, real-time translation/localization demo app.
 - [cloud-automation-starter](https://github.com/ZeZilly/cloud-automation-starter): Starter kit for automating cloud workflows (Azure, GCP, AWS).
 - [multilingual-webapp-starter](https://github.com/ZeZilly/multilingual-webapp-starter): Boilerplate for a multilingual website (React/Next.js, i18n, multi-language content).
@@ -49,7 +48,6 @@
 ---
 
 ## 📜 Certifications & Learning
-
 - Turkish Middle School Graduate (TR)
 - Swiss High School Graduate (CH)
 - Driver's License (2011, TR)
@@ -61,10 +59,9 @@
 ---
 
 ## 🤝 Contact & Social
-
 <p align="center">
   <a href="mailto:mzogz@hotmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/your-link"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/zekiogz/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://t.me/ZekTonz"><img src="https://img.shields.io/badge/Telegram-@ZekTonz-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
   <a href="https://x.com/mehmetzekki"><img src="https://img.shields.io/badge/X-@mehmetzekki-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/></a>
   <a href="https://www.upwork.com/freelancers/zeki"><img src="https://img.shields.io/badge/Upwork-Hire%20Me-6fda44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"/></a>
