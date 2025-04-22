@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-- Professional translator (5+ years): Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧 (fluent), Kurdish & Arabic (on-the-fly), Swedish 🇸🇪 & Danish 🇩🇰 (pro docs/web)
+- Professional translator (5+ years): Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧 (fluent), Kurdish 🏳️, Arabic 🇸🇾 (on-the-fly), Swedish 🇸🇪 & Danish 🇩🇰 (pro docs/web), **Swiss German 🇨🇭** & **German 🇩🇪** (proficient)
 - Full-stack developer & AI specialist on Microsoft’s Azure Developer Team
 - 5+ years building sleek websites, fine‑tuning LLMs, and automating workflows
 - Currently leveling up with Google Cloud & AWS Developer programs
@@ -16,7 +16,7 @@
 
 ## 🌍 Languages
 
-🇹🇷 Turkish | 🇳🇴 Norwegian | 🇬🇧 English | 🇸🇪 Swedish | 🇩🇰 Danish | 🇸🇾 Arabic | 🏳️ Kurdish
+🇹🇷 Turkish | 🇳🇴 Norwegian | 🇬🇧 English | 🇸🇪 Swedish | 🇩🇰 Danish | 🇸🇾 Arabic | 🏳️ Kurdish | 🇨🇭 Swiss German | 🇩🇪 German
 
 ---
 
@@ -30,8 +30,11 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-... (other badges remain unchanged)
+![n8n](https://img.shields.io/badge/n8n-FF6D00?style=flat&logo=n8n&logoColor=white)
+![v0.dev](https://img.shields.io/badge/v0.dev-000000?style=flat&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgdmlld0JveD0iMCAwIDMwIDMwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCIgZmlsbD0iIzAwMCIvPjwvc3ZnPg==)
+![lovable.dev](https://img.shields.io/badge/lovable.dev-FF69B4?style=flat&logoColor=white)
+![manus.ai](https://img.shields.io/badge/manus.ai-2D3748?style=flat&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21F?style=flat&logo=huggingface&logoColor=black)
 
 ---
 
@@ -85,8 +88,8 @@ Ready to turn your next big idea into a pixel‑perfect, AI‑powered reality? H
 
 <p align="center">
   <img src="https://img.shields.io/badge/🦄-Creative%20Problem%20Solver-ffb347?style=for-the-badge" alt="Creative Problem Solver"/>
-  <img src="https://img.shields.io/badge/💡-Innovation%20Enthusiast-00bfff?style=for-the-badge" alt="Innovation Enthusiast"/>
-  <img src="https://img.shields.io/badge/🤝-Collaboration%20Champion-ffd700?style=for-the-badge" alt="Collaboration Champion"/>
+  <img src="https://img.shields.io/badge/💡-Innovation%20Enthusiast-00bfff?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🤝-Collaboration%20Champion-ffd700?style=for-the-badge"/>
 </p>
 
 </div>
