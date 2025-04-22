@@ -1,12 +1,12 @@
 <div align="center">
 
-# Mehmet Zeki — Professional Translator (5+ years) & Full‑Stack Developer / AI Whisperer from Trondheim 🇳🇴
+# Mehmet Zeki — Translator & Full‑Stack Developer / AI Whisperer from Trondheim 🇳🇴
 
 ---
 
 ## 🚀 About Me
 
-- Professional translator (5+ years): Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧 (fluent), Kurdish 🏳️, Arabic 🇸🇾 (on-the-fly), Swedish 🇸🇪 & Danish 🇩🇰 (pro docs/web), **Swiss German 🇨🇭** & **German 🇩🇪** (proficient)
+- Translator: Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧 (fluent), Kurdish 🏳️, Arabic 🇸🇾 (on-the-fly), Swedish 🇸🇪 & Danish 🇩🇰 (pro docs/web), Swiss German 🇨🇭 & German 🇩🇪 (proficient)
 - Full-stack developer & AI specialist on Microsoft’s Azure Developer Team
 - 5+ years building sleek websites, fine‑tuning LLMs, and automating workflows
 - Currently leveling up with Google Cloud & AWS Developer programs
