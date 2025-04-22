@@ -1,14 +1,14 @@
 <div align="center">
 
-# Hi, I’m Mehmet Zeki — Full‑Stack Developer & AI Whisperer from Trondheim 🇳🇴
+# Mehmet Zeki — Professional Translator (5+ years) & Full‑Stack Developer / AI Whisperer from Trondheim 🇳🇴
 
 ---
 
 ## 🚀 About Me
 
+- Professional translator (5+ years): Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧 (fluent), Kurdish & Arabic (on-the-fly), Swedish 🇸🇪 & Danish 🇩🇰 (pro docs/web)
 - Full-stack developer & AI specialist on Microsoft’s Azure Developer Team
 - 5+ years building sleek websites, fine‑tuning LLMs, and automating workflows
-- Polyglot: Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧 (fluent), Kurdish & Arabic (on-the-fly), Swedish 🇸🇪 & Danish 🇩🇰 (pro docs/web)
 - Currently leveling up with Google Cloud & AWS Developer programs
 - Mission: Blend cutting-edge cloud tech with seamless, AI-powered localization to help Scandinavian gov’t agencies, NGOs & startups scale globally
 
@@ -83,9 +83,11 @@
 
 ## ✨ Featured Projects
 
+- [ai-localization-demo](https://github.com/ZeZilly/ai-localization-demo): AI-powered, real-time translation/localization demo app.
+- [cloud-automation-starter](https://github.com/ZeZilly/cloud-automation-starter): Starter kit for automating cloud workflows (Azure, GCP, AWS).
+- [multilingual-webapp-starter](https://github.com/ZeZilly/multilingual-webapp-starter): Boilerplate for a multilingual website (React/Next.js, i18n, multi-language content).
 - [aidentity-core-platform-nexus-builder](https://github.com/ZeZilly/aidentity-core-platform-nexus-builder): Web-based AI-enhanced dev/ops platform for rapid app building, automation, and analytics.
 - [ID-AI-Private-Zeki](https://github.com/ZeZilly/ID-AI-Private-Zeki) *(private)*: Secure, private LLM and workflow platform.
-- More coming soon: AI localization demo, multilingual web app starter, and cloud automation tools.
 
 ---
 
