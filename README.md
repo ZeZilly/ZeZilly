@@ -8,15 +8,15 @@
 
 - Full-stack developer & AI specialist on Microsoft’s Azure Developer Team
 - 5+ years building sleek websites, fine‑tuning LLMs, and automating workflows
-- Polyglot translator: Turkish, Norwegian & English (fluent), Kurdish & Arabic (on-the-fly), Swedish & Danish (pro docs/web)
+- Polyglot: Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧 (fluent), Kurdish & Arabic (on-the-fly), Swedish 🇸🇪 & Danish 🇩🇰 (pro docs/web)
 - Currently leveling up with Google Cloud & AWS Developer programs
 - Mission: Blend cutting-edge cloud tech with seamless, AI-powered localization to help Scandinavian gov’t agencies, NGOs & startups scale globally
 
 ---
 
-## 🌍 Om Meg (på norsk)
+## 🌍 Languages
 
-Hei! Jeg er Mehmet Zeki fra Trondheim, utvikler på Azure Developer Team. Jeg har laget mange nettsteder, jobbet med LLM‑tilpasning og automatisering. Flytende i tyrkisk, norsk og engelsk, med øyeblikkelig oversettelse på kurdisk og arabisk, samt svensk/dansk for dokumenter og web. Nå utdyper jeg meg i Google Cloud og AWS. Klar for å hjelpe skandinaviske offentlige etater, NGOer og startups med AI‑drevet sky‑og lokaliseringsløsninger. Ta kontakt!
+🇹🇷 Turkish | 🇳🇴 Norwegian | 🇬🇧 English | 🇸🇪 Swedish | 🇩🇰 Danish | 🇸🇾 Arabic | 🏳️ Kurdish
 
 ---
 
@@ -31,6 +31,22 @@ Hei! Jeg er Mehmet Zeki fra Trondheim, utvikler på Azure Developer Team. Jeg ha
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+---
+
+## ✨ Featured Projects
+
+- [aidentity-core-platform-nexus-builder](https://github.com/ZeZilly/aidentity-core-platform-nexus-builder): Web-based AI-enhanced dev/ops platform for rapid app building, automation, and analytics.
+- [ID-AI-Private-Zeki](https://github.com/ZeZilly/ID-AI-Private-Zeki) *(private)*: Secure, private LLM and workflow platform.
+- More coming soon: AI localization demo, multilingual web app starter, and cloud automation tools.
+
+---
+
+## 📜 Certifications & Learning
+
+- Microsoft Certified: Azure Developer Associate
+- Google Cloud & AWS Developer (in progress)
+- Ongoing: AI/ML, cloud automation, and advanced localization
 
 ---
 
