@@ -56,13 +56,15 @@
 
 ---
 
-## 🤝 Let’s Collaborate!
+## 🤝 Contact & Social
 
-Ready to turn your next big idea into a pixel‑perfect, AI‑powered reality? Hit me up!
-
-- [Email](mailto:mzogz@hotmail.com)
-- [LinkedIn](https://www.linkedin.com/in/your-link)
-- [Telegram](https://t.me/ZekTonz)
+<p align="center">
+  <a href="mailto:mzogz@hotmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/your-link"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://t.me/ZekTonz"><img src="https://img.shields.io/badge/Telegram-@ZekTonz-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+  <a href="https://x.com/mehmetzekki"><img src="https://img.shields.io/badge/X-@mehmetzekki-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/></a>
+  <a href="https://www.upwork.com/freelancers/zeki"><img src="https://img.shields.io/badge/Upwork-Hire%20Me-6fda44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"/></a>
+</p>
 
 ---
 
