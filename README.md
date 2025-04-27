@@ -95,4 +95,9 @@
   <img src="https://img.shields.io/badge/🤝-Collaboration%20Champion-ffd700?style=for-the-badge"/>
 </p>
 
+
+<div class="badge-base LI-profile-badge" data-locale="no_NO" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="zekiogz" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://no.linkedin.com/in/zekiogz?trk=profile-badge">✧ Z҉ E҉ K҉ I҉  ✧ O҉ G҉ U҉ Z҉ ✧</a></div>
+              
 </div>
+
+
