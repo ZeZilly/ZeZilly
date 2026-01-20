@@ -1,12 +1,12 @@
 <div align="center">
 
-# Mehmet Zeki — AI Evaluation Specialist | Content Safety & Ranking | Multilingual -- from Trondheim 🇳🇴
+# Mehmet Zeki — AI Evaluation Trainer | Content Safety & Ranking | Multilingual -- from Trondheim 🇳🇴
 
 ---
 
 ## 🚀 About Me
 
-- Translator: Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧 (fluent), Swedish 🇸🇪 & Danish 🇩🇰 (pro docs/web), Swiss German 🇨🇭 & German 🇩🇪 (proficient)
+- Translator: Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧, Swedish 🇸🇪 & Danish 🇩🇰, Swiss German 🇨🇭 & German 🇩🇪 
 - AI specialist on Mindy-Support fine‑tuning LLMs, and automating workflows
 - 5+ years working as Translator localy in Trondheim
 - Have allready 9 certification and currently leveling up with 17 mnore 
@@ -21,31 +21,6 @@
 ---
 
 ## 💡 Skills & Tools
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![n8n](https://img.shields.io/badge/n8n-FF6D00?style=flat&logo=n8n&logoColor=white)
-![v0.dev](https://img.shields.io/badge/v0.dev-000000?style=flat&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgdmlld0JveD0iMCAwIDMwIDMwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCIgZmlsbD0iIzAwMCIvPjwvc3ZnPg==)
-![lovable.dev](https://img.shields.io/badge/lovable.dev-FF69B4?style=flat&logoColor=white)
-![manus.ai](https://img.shields.io/badge/manus.ai-2D3748?style=flat&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21F?style=flat&logo=huggingface&logoColor=black)
-
----
-
-## ✨ Featured Projects
-- [ai-localization-demo](https://github.com/ZeZilly/ai-localization-demo): AI-powered, real-time translation/localization demo app.
-- [cloud-automation-starter](https://github.com/ZeZilly/cloud-automation-starter): Starter kit for automating cloud workflows (Azure, GCP, AWS).
-- [multilingual-webapp-starter](https://github.com/ZeZilly/multilingual-webapp-starter): Boilerplate for a multilingual website (React/Next.js, i18n, multi-language content).
-- [aidentity-core-platform-nexus-builder](https://github.com/ZeZilly/aidentity-core-platform-nexus-builder): Web-based AI-enhanced dev/ops platform for rapid app building, automation, and analytics.
-- [ID-AI-Private-Zeki](https://github.com/ZeZilly/ID-AI-Private-Zeki) *(private)*: Secure, private LLM and workflow platform.
-
----
 
 ## 📜 Certifications & Learning
 - Turkish Middle School Graduate (TR)
