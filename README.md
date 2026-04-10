@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 align="center">Mehmet Zeki Oğuz</h1>
+<h1 align="center">Mehmet Zeki Oguz</h1>
 <h3 align="center">AI Workflow • Content Safety • Multilingual Ops • Agentic Execution</h3>
 
 <p align="center">
@@ -136,11 +136,6 @@ This GitHub is where I document and organize:
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZeZilly&show_icons=true&theme=transparent" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeZilly&layout=compact&theme=transparent" height="160" />
-</p>
 
 
 
