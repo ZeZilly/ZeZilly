@@ -1,74 +1,147 @@
 <div align="center">
 
-# Mehmet Zeki — AI Evaluation Trainer | Content Safety & Ranking | Multilingual -- from Trondheim 🇳🇴
+<h1 align="center">Mehmet Zeki Oğuz</h1>
+<h3 align="center">AI Workflow • Content Safety • Multilingual Ops • Agentic Execution</h3>
 
----
-
-## 🚀 About Me
-
-- Translator: Turkish 🇹🇷, Norwegian 🇳🇴, English 🇬🇧, Swedish 🇸🇪 & Danish 🇩🇰, Swiss German 🇨🇭 & German 🇩🇪 
-- AI specialist on Mindy-Support fine‑tuning LLMs, and automating workflows
-- 5+ years working as Translator localy in Trondheim
-- Have allready 9 certification and currently leveling up with 17 mnore 
-- Mission: Blend cutting-edge cloud tech with seamless, AI-powered localization to help Scandinavian gov’t agencies, NGOs & startups scale globally
-
----
-
-## 🌍 Languages
-
-🇹🇷 Turkish | 🇳🇴 Norwegian | 🇬🇧 English | 🇸🇪 Swedish | 🇩🇰 Danish | 🇸🇾 Arabic | 🏳️ Kurdish | 🇨🇭 Swiss German | 🇩🇪 German
-
----
-
-## 💡 Skills & Tools
-
-## 📜 Certifications & Learning
-- Turkish Middle School Graduate (TR)
-- Swiss High School Graduate (CH)
-- Driver's License (2011, TR)
-- Culinary Arts: Multi-cuisine Chef, Italian Pizza Mastery (2012+)
-- International Food Safety & Hygiene (2017, Sweden)
-- Microsoft Certified: Azure Developer Associate
-- 2020: Pivoted to AI & Coding — ongoing advanced learning
-
----
-
-## 🤝 Contact & Social
 <p align="center">
-  <a href="mailto:mzogz@hotmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/zekiogz/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://t.me/ZekTonz"><img src="https://img.shields.io/badge/Telegram-@ZekTonz-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-  <a href="https://x.com/mehmetzekki"><img src="https://img.shields.io/badge/X-@mehmetzekki-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/></a>
-  <a href="https://www.upwork.com/freelancers/zeki"><img src="https://img.shields.io/badge/Upwork-Hire%20Me-6fda44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"/></a>
+  <img src="https://img.shields.io/badge/Based%20in-Trondheim%2C%20Norway-0F766E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-AI%20Workflows-1D4ED8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Multilingual%20Operations-7C3AED?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Mode-Human%20%2B%20AI-F59E0B?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ZeZilly">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=900&lines=AI-assisted+workflow+operator;Multilingual+evaluation+and+localization;Content+safety+and+ranking+operations;Agentic+execution+and+vibe-coding+management" alt="Typing SVG" />
+  </a>
 </p>
 
 ---
 
-## ☕ Support Me
+## About Me
 
-[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=mehmetzekih&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/mehmetzekih)
+I work at the intersection of multilingual operations, AI-supported workflows, content safety, evaluation systems, and structured execution.
+
+I do not position myself as a traditional software engineer.  
+My strength is understanding how systems should work, what needs to be built, where each part belongs, which requirements matter, and how AI tools can be guided to turn ideas into structured outcomes.
+
+I am especially interested in:
+- AI workflow orchestration
+- multilingual operations and localization
+- content safety, ranking, and quality review
+- prompt design and task structuring
+- human-in-the-loop systems
+- agentic workflows
+- vibe-coding management
 
 ---
 
-## 🎨 Creative Badges
+## Focus Areas
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🌍-Global%20Citizen-blueviolet?style=for-the-badge" alt="Global Citizen"/>
-  <img src="https://img.shields.io/badge/🤖-AI%20Whisperer-ff69b4?style=for-the-badge" alt="AI Whisperer"/>
-  <img src="https://img.shields.io/badge/🗣️-Polyglot%20Translator-brightgreen?style=for-the-badge" alt="Polyglot Translator"/>
+- AI workflow orchestration
+- Multilingual operations
+- Localization workflows
+- Content safety & ranking
+- Evaluation and quality review
+- Prompt design
+- Agentic workflows
+- Human-in-the-loop systems
+- Execution planning
+- AI-assisted product direction
+
+---
+
+## Current Direction
+
+I am currently exploring:
+- AI-native operations
+- agentic systems
+- practical workflow automation
+- multilingual QA flows
+- evaluation infrastructure
+- AI-assisted execution systems
+- operational design for digital products
+
+---
+
+## Languages
+
+- English
+- Norwegian
+- Turkish
+- Swedish
+- Arabic
+- Kurdish
+- Swiss German
+
+---
+
+## Selected Tools, Models & Ecosystems
+
+### Workflow / Automation
+![n8n](https://img.shields.io/badge/n8n-Workflow%20Automation-EA580C?style=for-the-badge)
+![Make](https://img.shields.io/badge/Make-Automation-6D28D9?style=for-the-badge)
+![Flowise](https://img.shields.io/badge/Flowise-Agent%20Flows-0F766E?style=for-the-badge)
+![Dify](https://img.shields.io/badge/Dify-AI%20Apps-2563EB?style=for-the-badge)
+
+### AI / LLM Ecosystem
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-Claude-D97706?style=for-the-badge)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini-2563EB?style=for-the-badge&logo=google&logoColor=white)
+![Meta Llama](https://img.shields.io/badge/Meta-Llama-1D4ED8?style=for-the-badge)
+![Mistral](https://img.shields.io/badge/Mistral-FF7000?style=for-the-badge)
+![Qwen](https://img.shields.io/badge/Qwen-111827?style=for-the-badge)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Open%20Models-FBBF24?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-111827?style=for-the-badge)
+
+### Work Style
+![AI Workflow Operator](https://img.shields.io/badge/AI%20Workflow-Operator-0A66C2?style=for-the-badge)
+![Vibe Coding Manager](https://img.shields.io/badge/Vibe%20Coding-Manager-6D28D9?style=for-the-badge)
+![Agentic Execution](https://img.shields.io/badge/Agentic-Execution-111827?style=for-the-badge)
+![Localization Workflow](https://img.shields.io/badge/Localization-Workflow-16A34A?style=for-the-badge)
+![Content Safety](https://img.shields.io/badge/Content-Safety-B91C1C?style=for-the-badge)
+![Ranking & Evaluation](https://img.shields.io/badge/Ranking%20%26-Evaluation-7C3AED?style=for-the-badge)
+![Human in the Loop](https://img.shields.io/badge/Human%20in%20the%20Loop-374151?style=for-the-badge)
+![Execution Architect](https://img.shields.io/badge/Execution-Architect-1D4ED8?style=for-the-badge)
+
+---
+
+## Working Style
+
+- I turn unclear ideas into structured workflows
+- I break complex tasks into executable steps
+- I know where AI is useful, where human judgment is necessary, and how both should work together
+- I focus on clarity, consistency, practical output, and quality
+- I enjoy building direction, not just output
+
+---
+
+## GitHub Purpose
+
+This GitHub is where I document and organize:
+- AI-assisted workflow thinking
+- multilingual execution and evaluation
+- content safety and ranking interests
+- agentic systems exploration
+- practical experiments around AI-enabled work
+
+---
+
+## Connect
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/zekiogz/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🚀-Cloud%20Automator-orange?style=for-the-badge" alt="Cloud Automator"/>
-  <img src="https://img.shields.io/badge/🎯-Mission%20Driven-9cf?style=for-the-badge" alt="Mission Driven"/>
-  <img src="https://img.shields.io/badge/🌱-Continuous%20Learner-success?style=for-the-badge" alt="Continuous Learner"/>
-</p>
+---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🦄-Creative%20Problem%20Solver-ffb347?style=for-the-badge" alt="Creative Problem Solver"/>
-  <img src="https://img.shields.io/badge/💡-Innovation%20Enthusiast-00bfff?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🤝-Collaboration%20Champion-ffd700?style=for-the-badge"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ZeZilly&show_icons=true&theme=transparent" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeZilly&layout=compact&theme=transparent" height="160" />
 </p>
+
 
 
 <div class="badge-base LI-profile-badge" data-locale="no_NO" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="zekiogz" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://no.linkedin.com/in/zekiogz?trk=profile-badge">✧ Z҉ E҉ K҉ I҉  ✧ O҉ G҉ U҉ Z҉ ✧</a></div>
