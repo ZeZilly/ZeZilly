@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehmet Zeki Oguz — AI Workflow Architect</title>
+  <meta name="description" content="AI Workflow Architect · Multilingual Ops · Agentic Execution · Content Safety. Based in Trondheim, Norway." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0a0a0f;
+      --bg2:       #111118;
+      --bg3:       #1a1a24;
+      --border:    #2a2a3a;
+      --text:      #e8e8f0;
+      --muted:     #7a7a9a;
+      --accent:    #3b82f6;
+      --accent2:   #8b5cf6;
+      --accent3:   #10b981;
+      --warn:      #f59e0b;
+      --danger:    #ef4444;
+      --radius:    12px;
+      --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(10,10,15,0.85);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      height: 60px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo {
+      font-weight: 700; font-size: 1rem;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      color: var(--muted); font-size: 0.875rem; font-weight: 500;
+      text-decoration: none; transition: color var(--transition);
+    }
+    .nav-links a:hover { color: var(--text); }
+
+    /* LAYOUT */
+    main { padding-top: 60px; }
+    section { padding: 5rem 2rem; max-width: 900px; margin: 0 auto; }
+    .section-label {
+      font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em;
+      color: var(--accent); text-transform: uppercase; margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700;
+      margin-bottom: 2rem; color: var(--text);
+    }
+    .divider {
+      height: 1px; background: var(--border);
+      max-width: 900px; margin: 0 auto;
+    }
+
+    /* HERO */
+    #hero {
+      min-height: calc(100vh - 60px);
+      display: flex; flex-direction: column; justify-content: center;
+      padding: 6rem 2rem;
+      position: relative; overflow: hidden;
+    }
+    #hero::before {
+      content: '';
+      position: absolute; top: -200px; right: -200px;
+      width: 600px; height: 600px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(59,130,246,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    #hero::after {
+      content: '';
+      position: absolute; bottom: -200px; left: -100px;
+      width: 500px; height: 500px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(139,92,246,0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner { max-width: 900px; margin: 0 auto; position: relative; z-index: 1; }
+    .hero-tag {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2);
+      border-radius: 100px; padding: 0.35rem 1rem;
+      font-size: 0.8rem; color: var(--accent); font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+    .hero-tag::before { content: '●'; font-size: 0.5rem; animation: pulse 2s infinite; }
+    @keyframes pulse {
+      0%,100% { opacity: 1; } 50% { opacity: 0.3; }
+    }
+    .hero-name {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 700; line-height: 1.1;
+      letter-spacing: -0.03em;
+      background: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.7) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+    .hero-role {
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color: var(--muted); margin-bottom: 2rem; font-weight: 400;
+    }
+    .hero-role span {
+      color: var(--accent); font-weight: 500;
+    }
+    .hero-desc {
+      font-size: 1rem; color: var(--muted); max-width: 600px;
+      line-height: 1.8; margin-bottom: 3rem;
+    }
+    .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.75rem 1.75rem; border-radius: 8px;
+      font-size: 0.875rem; font-weight: 600;
+      text-decoration: none; transition: all var(--transition);
+      cursor: pointer; border: none;
+    }
+    .btn-primary {
+      background: var(--accent); color: #fff;
+    }
+    .btn-primary:hover { background: #2563eb; transform: translateY(-1px); }
+    .btn-secondary {
+      background: transparent; color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover { background: var(--bg3); border-color: var(--accent); }
+    .hero-badges {
+      display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 3rem;
+    }
+    .badge {
+      padding: 0.3rem 0.75rem; border-radius: 6px;
+      font-size: 0.75rem; font-weight: 500;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .badge-blue   { background: rgba(59,130,246,0.12); color: #60a5fa; border: 1px solid rgba(59,130,246,0.2); }
+    .badge-purple { background: rgba(139,92,246,0.12); color: #a78bfa; border: 1px solid rgba(139,92,246,0.2); }
+    .badge-green  { background: rgba(16,185,129,0.12); color: #34d399; border: 1px solid rgba(16,185,129,0.2); }
+    .badge-amber  { background: rgba(245,158,11,0.12); color: #fbbf24; border: 1px solid rgba(245,158,11,0.2); }
+    .badge-red    { background: rgba(239,68,68,0.12);  color: #f87171; border: 1px solid rgba(239,68,68,0.2); }
+    .badge-gray   { background: rgba(122,122,154,0.12); color: #9ca3af; border: 1px solid rgba(122,122,154,0.2); }
+
+    /* ABOUT */
+    #about .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;
+    }
+    .about-card {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.5rem;
+      transition: border-color var(--transition);
+    }
+    .about-card:hover { border-color: var(--accent); }
+    .about-card h3 {
+      font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em;
+      color: var(--accent); text-transform: uppercase; margin-bottom: 1rem;
+    }
+    .about-card p { color: var(--muted); font-size: 0.9rem; line-height: 1.8; }
+    .about-text {
+      font-size: 1rem; color: var(--muted); line-height: 1.9;
+      margin-bottom: 2.5rem;
+    }
+    .about-text strong { color: var(--text); font-weight: 600; }
+
+    /* PROJECTS */
+    #projects .project-card {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 2rem;
+      margin-bottom: 1.5rem;
+      transition: all var(--transition);
+      position: relative; overflow: hidden;
+    }
+    #projects .project-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      opacity: 0; transition: opacity var(--transition);
+    }
+    #projects .project-card:hover { border-color: rgba(59,130,246,0.4); transform: translateY(-2px); }
+    #projects .project-card:hover::before { opacity: 1; }
+    .project-header {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem;
+    }
+    .project-title {
+      font-size: 1.1rem; font-weight: 700; color: var(--text);
+      text-decoration: none; display: flex; align-items: center; gap: 0.5rem;
+    }
+    .project-title:hover { color: var(--accent); }
+    .project-score {
+      background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.3);
+      color: #34d399; padding: 0.25rem 0.75rem;
+      border-radius: 100px; font-size: 0.75rem; font-weight: 600;
+      font-family: 'JetBrains Mono', monospace; white-space: nowrap;
+    }
+    .project-desc {
+      color: var(--muted); font-size: 0.9rem;
+      line-height: 1.7; margin-bottom: 1.25rem;
+    }
+    .project-stack {
+      display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.25rem;
+    }
+    .stack-tag {
+      background: var(--bg3); border: 1px solid var(--border);
+      color: var(--muted); padding: 0.2rem 0.6rem;
+      border-radius: 4px; font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .project-highlights { list-style: none; }
+    .project-highlights li {
+      color: var(--muted); font-size: 0.875rem;
+      padding: 0.3rem 0; display: flex; align-items: flex-start; gap: 0.75rem;
+    }
+    .project-highlights li::before {
+      content: '→'; color: var(--accent); font-size: 0.8rem;
+      margin-top: 0.1rem; flex-shrink: 0;
+    }
+
+    /* LANGUAGES */
+    #languages .lang-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem;
+    }
+    .lang-card {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.25rem 1.5rem;
+      display: flex; align-items: center; justify-content: space-between;
+      transition: border-color var(--transition);
+    }
+    .lang-card:hover { border-color: var(--accent); }
+    .lang-name { font-weight: 600; font-size: 0.95rem; }
+    .lang-level {
+      font-size: 0.75rem; font-weight: 500;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .level-native  { color: #34d399; }
+    .level-fluent  { color: #60a5fa; }
+    .level-proficient { color: #a78bfa; }
+    .level-intermediate { color: #fbbf24; }
+    .level-conversational { color: #9ca3af; }
+
+    /* STACK */
+    #stack .stack-section { margin-bottom: 2rem; }
+    #stack .stack-section h3 {
+      font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em;
+      color: var(--muted); text-transform: uppercase; margin-bottom: 1rem;
+    }
+    #stack .stack-section .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+
+    /* CONNECT */
+    #connect {
+      text-align: center;
+    }
+    #connect p {
+      color: var(--muted); margin-bottom: 2.5rem; font-size: 1rem;
+    }
+    .connect-links {
+      display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;
+    }
+    .connect-link {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      padding: 0.75rem 1.5rem;
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); color: var(--text);
+      text-decoration: none; font-weight: 500; font-size: 0.9rem;
+      transition: all var(--transition);
+    }
+    .connect-link:hover {
+      border-color: var(--accent); color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .connect-link svg { width: 18px; height: 18px; }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem; text-align: center;
+      color: var(--muted); font-size: 0.8rem;
+    }
+
+    /* FADE IN */
+    .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.6s cubic-bezier(0.4,0,0.2,1); }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      #about .about-grid { grid-template-columns: 1fr; }
+      #hero { padding: 4rem 1.5rem; }
+      section { padding: 4rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">Zeki Oguz</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#languages">Languages</a></li>
+    <li><a href="#stack">Stack</a></li>
+    <li><a href="#connect">Connect</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Available for collaboration</div>
+    <h1 class="hero-name">Mehmet Zeki Oguz</h1>
+    <p class="hero-role">
+      <span>AI Workflow Architect</span> · Multilingual Ops · Agentic Execution · Content Safety
+    </p>
+    <p class="hero-desc">
+      I work at the intersection of AI-assisted execution, multilingual operations, and agentic system design.
+      Based in Trondheim, Norway — operating globally across 7 languages.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="https://no.linkedin.com/in/zekiogz" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+      <a href="https://github.com/ZeZilly" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
+    </div>
+    <div class="hero-badges">
+      <span class="badge badge-blue">AI Workflow Operator</span>
+      <span class="badge badge-purple">Vibe Coding Manager</span>
+      <span class="badge badge-green">Agentic Execution</span>
+      <span class="badge badge-amber">Human in the Loop</span>
+      <span class="badge badge-red">Content Safety</span>
+      <span class="badge badge-gray">Multilingual QA</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="fade-in">
+    <p class="section-label">About</p>
+    <h2>How I Work</h2>
+    <p class="about-text">
+      My strength is not writing every line of code myself — it is
+      <strong>understanding how systems should work</strong>, what needs to be built,
+      where each part belongs, and how AI tools can be guided to turn ideas into
+      <strong>structured, production-ready outcomes</strong>.
+    </p>
+    <p class="about-text">
+      I specialize in human-in-the-loop pipelines, prompt architecture, multilingual QA,
+      content safety workflows, and orchestrating AI agents that operate with
+      <strong>clear boundaries and measurable outputs</strong>.
+    </p>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Execution OS</h3>
+        <p>I turn unclear ideas into structured workflows. I break complex tasks into executable steps with defined inputs, outputs, and handoff points.</p>
+      </div>
+      <div class="about-card">
+        <h3>AI + Human Balance</h3>
+        <p>I know where AI is useful, where human judgment is necessary, and how both should work together without losing control or audit trail.</p>
+      </div>
+      <div class="about-card">
+        <h3>Multilingual Ops</h3>
+        <p>7 languages, active in localization, QA, and content safety workflows across Norwegian, English, Turkish, Swedish, Arabic, Kurdish, and Swiss German.</p>
+      </div>
+      <div class="about-card">
+        <h3>Systems Thinking</h3>
+        <p>I focus on clarity, consistency, and practical output. I enjoy building direction and architecture — not just code output.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="fade-in">
+    <p class="section-label">Currently Building</p>
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <div class="project-header">
+        <a href="https://github.com/ZeZilly/fincept-ai-ops" target="_blank" rel="noopener" class="project-title">
+          🏗️ fincept-ai-ops
+        </a>
+        <span class="project-score">Audit: 8.4 / 10</span>
+      </div>
+      <p class="project-desc">
+        Research-first, supervised paper trading system. Built on the principle:
+        no live trading, no execution without human approval, no broker action without audit log.
+      </p>
+      <div class="project-stack">
+        <span class="stack-tag">FastAPI</span>
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">MCP</span>
+        <span class="stack-tag">N8N</span>
+        <span class="stack-tag">Docker</span>
+        <span class="stack-tag">Claude</span>
+        <span class="stack-tag">OpenAI</span>
+      </div>
+      <ul class="project-highlights">
+        <li>5 active agents: research, risk_guard, execution_ops, briefing, audit</li>
+        <li>Full MCP server with 7 tools — connectable to Claude, GPT, and local LLMs</li>
+        <li>N8N-driven workflow automation with human approval gate</li>
+        <li>9 test files covering all critical paths</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <a href="https://github.com/ZeZilly/A-Identity-Z" target="_blank" rel="noopener" class="project-title">
+          🌐 A-Identity-Z
+        </a>
+      </div>
+      <p class="project-desc">
+        Multilingual AI services company — translation, interpretation, and AI-assisted localization
+        across 7 languages with a focus on quality-assured outputs.
+      </p>
+      <div class="project-stack">
+        <span class="stack-tag">Localization</span>
+        <span class="stack-tag">Translation</span>
+        <span class="stack-tag">AI-assisted QA</span>
+        <span class="stack-tag">Multilingual</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- LANGUAGES -->
+<section id="languages">
+  <div class="fade-in">
+    <p class="section-label">Communication</p>
+    <h2>Languages</h2>
+    <div class="lang-grid">
+      <div class="lang-card"><span class="lang-name">Turkish</span><span class="lang-level level-native">Native</span></div>
+      <div class="lang-card"><span class="lang-name">Norwegian</span><span class="lang-level level-fluent">Fluent</span></div>
+      <div class="lang-card"><span class="lang-name">English</span><span class="lang-level level-fluent">Fluent</span></div>
+      <div class="lang-card"><span class="lang-name">Swedish</span><span class="lang-level level-proficient">Proficient</span></div>
+      <div class="lang-card"><span class="lang-name">Arabic</span><span class="lang-level level-intermediate">Intermediate</span></div>
+      <div class="lang-card"><span class="lang-name">Kurdish</span><span class="lang-level level-intermediate">Intermediate</span></div>
+      <div class="lang-card"><span class="lang-name">Swiss German</span><span class="lang-level level-conversational">Conversational</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- STACK -->
+<section id="stack">
+  <div class="fade-in">
+    <p class="section-label">Ecosystem</p>
+    <h2>Stack & Tools</h2>
+
+    <div class="stack-section">
+      <h3>Orchestration & Automation</h3>
+      <div class="badges">
+        <span class="badge badge-amber">n8n</span>
+        <span class="badge badge-amber">Make</span>
+        <span class="badge badge-green">FastAPI</span>
+        <span class="badge badge-blue">Docker</span>
+      </div>
+    </div>
+
+    <div class="stack-section">
+      <h3>AI / LLM</h3>
+      <div class="badges">
+        <span class="badge badge-purple">Claude (Anthropic)</span>
+        <span class="badge badge-gray">GPT (OpenAI)</span>
+        <span class="badge badge-blue">Gemini</span>
+        <span class="badge badge-gray">Ollama (Local)</span>
+        <span class="badge badge-amber">Hugging Face</span>
+      </div>
+    </div>
+
+    <div class="stack-section">
+      <h3>Agent Frameworks</h3>
+      <div class="badges">
+        <span class="badge badge-green">MCP (Model Context Protocol)</span>
+        <span class="badge badge-green">Flowise</span>
+        <span class="badge badge-blue">Dify</span>
+      </div>
+    </div>
+
+    <div class="stack-section">
+      <h3>Work Identity</h3>
+      <div class="badges">
+        <span class="badge badge-blue">AI Workflow Operator</span>
+        <span class="badge badge-purple">Vibe Coding Manager</span>
+        <span class="badge badge-gray">Agentic Execution</span>
+        <span class="badge badge-amber">Human in the Loop</span>
+        <span class="badge badge-red">Content Safety</span>
+        <span class="badge badge-blue">Execution Architect</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONNECT -->
+<section id="connect">
+  <div class="fade-in">
+    <p class="section-label">Get in Touch</p>
+    <h2>Connect</h2>
+    <p>Open to collaboration, consulting, and interesting conversations around AI systems, multilingual ops, and agentic execution.</p>
+    <div class="connect-links">
+      <a href="https://no.linkedin.com/in/zekiogz" target="_blank" rel="noopener" class="connect-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/ZeZilly" target="_blank" rel="noopener" class="connect-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 Mehmet Zeki Oguz · Trondheim, Norway · Built with purpose</p>
+</footer>
+
+<script>
+  // Fade in on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
